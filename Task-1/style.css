@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    background-image: url(../batman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    border: 2px solid;
+    margin-left: 38%;
+    /* margin-top: 3%; */
+}
+.item{
+    float: left;
+    height: 75px;
+    width: 75px;
+    display: table-cell;
+    vertical-align:middle;
+    /* border: 2px solid; */
+}
+.items{
+    float: left;
+    height: 75px;
+    width: 75px;
+    display: table-cell;
+    vertical-align:middle;
+}
+.item:nth-child(even){
+    background-color: lightcoral;
+}
+.items:nth-child(odd){
+    background-color: lightcoral;
+}
+
+

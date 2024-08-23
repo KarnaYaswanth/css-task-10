@@ -1,0 +1,34 @@
+img {
+    width: 40px;
+}
+
+#checkbox{
+    display: none;
+}
+.content>p {
+    background-color: #eee;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    /* display: none;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; */
+}
+
+#checkbox:checked+.content {
+    /* display: block; */
+    max-height: 300px;
+
+}
+
+
